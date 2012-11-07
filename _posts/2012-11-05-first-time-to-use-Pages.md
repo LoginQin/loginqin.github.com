@@ -17,4 +17,4 @@ title: 第一次使用Pages
 
 国内居然有人翻译不全, 没有搞清楚这两个概念.
 
-*{{page.date | date_to_string}}
+*{{page.date | date_to_string}}*
