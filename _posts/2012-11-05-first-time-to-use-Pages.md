@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post-md
 title: 第一次使用Pages
 ---
-##{{page.title}}
   
 第一次使用GitHub的Pages功能, 需要搞清楚的是:   
 
@@ -18,4 +17,3 @@ title: 第一次使用Pages
 
 国内有些翻译并不周全, 没有搞清楚这两个概念.
 
-*{{page.date | date_to_string}}*

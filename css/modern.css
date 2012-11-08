@@ -1823,7 +1823,7 @@ License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
   width: 35px;
   height: 30px;
   padding-top: 5px;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #1d1d1d;
@@ -1918,7 +1918,7 @@ License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
   line-height: 14pt;
 }
 #font .navigation {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -1934,23 +1934,23 @@ License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
   line-height: 20px;
 }
 #font .link {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
 }
 #font .tertiary,
 #font .tertiary-secondary {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
 }
 #font .control {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
 }
 #font .small {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 8pt;
 }
@@ -2036,7 +2036,7 @@ License:	CC BY-SA 3.0 -- http://creativecommons.org/licenses/by-sa/3.0/
 }
 a,
 .link {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   color: #4f1acb;
@@ -2074,21 +2074,21 @@ h1:active {
   color: rgba(0, 0, 0, 0.4);
 }
 h2 {
-  font-family: 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI Light','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-size: 20pt;
   letter-spacing: 0.01em;
   line-height: 24pt;
-  color: #000000;
+  color: #00c000;
 }
 h2:hover {
-  color: rgba(0, 0, 0, 0.8);
+  color: #00cf00;
 }
 h2:active {
   color: rgba(0, 0, 0, 0.4);
 }
 h3 {
-  font-family: 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI Light', '微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-size: 20pt;
   letter-spacing: 0.01em;
@@ -2130,7 +2130,7 @@ h5 {
   font-size: 11pt;
   letter-spacing: 0.01em;
   line-height: 14pt;
-  color: rgba(0, 0, 0, 0.6);
+  color: #999;
   font-size: 90%;
 }
 h5:hover {
@@ -2161,6 +2161,7 @@ p {
   font-size: 11pt;
   letter-spacing: 0.02em;
   line-height: 20px;
+  cursor:default;
 }
 p.long-text {
   font-family: 'PT Serif Caption', sans-serif, serif !important;
@@ -2170,18 +2171,20 @@ p.long-text {
   line-height: 20px;
 }
 p {
-  margin: 0 0 10px;
+ /* margin: 0 0 10px;*/
+   white-space:pre-wrap;
 }
 p.indent:first-letter {
   padding-left: 25px;
 }
+
 .lead {
   font-size: 120%;
   line-height: 26px;
 }
 .tertiary-info-text,
 .tertiary-text {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #000000;
@@ -2196,7 +2199,7 @@ p.indent:first-letter {
 }
 .tertiary-info-secondary-text,
 .tertiary-secondary-text {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: rgba(0, 0, 0, 0.6);
@@ -2608,7 +2611,7 @@ ol.unstyled,
 }
 button,
 .button {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   min-width: 90px;
@@ -2719,7 +2722,7 @@ button.big [class*=icon-],
   color: #ccc;
 }
 .tool-button {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   min-width: 90px;
@@ -2794,7 +2797,7 @@ button.big [class*=icon-],
 }
 .toolbar a,
 .toolbar button {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   min-width: 90px;
@@ -2937,7 +2940,7 @@ button.big [class*=icon-],
 }
 .toolbar-vertical a,
 .toolbar-vertical button {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   min-width: 90px;
@@ -3128,7 +3131,7 @@ table thead tr td {
   border-right: 1px #ddd solid;
   border-left: 1px transparent solid;
   border-top: 1px transparent solid;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -3513,7 +3516,7 @@ table.bordered tbody tr:last-child td {
 }
 .navigation-bar .navigation-bar-inner  > ul  > li  > a {
   color: #fff;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -3581,7 +3584,7 @@ table.bordered tbody tr:last-child td {
   left: auto;
 }
 .dropdown-menu a {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -3639,7 +3642,7 @@ table.bordered tbody tr:last-child td {
   white-space: nowrap;
   float: none;
   height: auto;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #1e1e1e;
@@ -3714,7 +3717,7 @@ table.bordered tbody tr:last-child td {
   padding: 5px  10px;
   display: block;
   z-index: 999;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -3749,7 +3752,7 @@ table.bordered tbody tr:last-child td {
   white-space: nowrap;
   float: none;
   height: auto;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #1e1e1e;
@@ -3857,7 +3860,7 @@ table.bordered tbody tr:last-child td {
   margin-left: 7px;
 }
 .page-sidebar a {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -4066,7 +4069,7 @@ table.bordered tbody tr:last-child td {
 .replies  > div .reply .text,
 .replies  > li .reply .text,
 .replies  > span .reply .text {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #000000;
@@ -4232,7 +4235,7 @@ table.bordered tbody tr:last-child td {
   margin-right: 50px;
   margin-left: 10px;
   color: #fff;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 8pt;
   margin-top: -5px;
@@ -4373,7 +4376,7 @@ table.bordered tbody tr:last-child td {
   overflow: hidden;
   text-overflow: ellipsis;
   position: relative;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #000000;
@@ -4410,7 +4413,7 @@ table.bordered tbody tr:last-child td {
   color: #ffffff;
 }
 .tile .tile-content p {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #000000;
@@ -4578,7 +4581,7 @@ table.bordered tbody tr:last-child td {
   left: 0;
   margin-bottom: 5px;
   margin-left: 15px;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #ffffff;
@@ -4604,7 +4607,7 @@ table.bordered tbody tr:last-child td {
   left: 60px;
   top: 5px;
   right: 50px;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #000000;
@@ -5037,7 +5040,7 @@ fieldset legend {
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   min-width: 90px;
@@ -5403,7 +5406,7 @@ pre {
 }
 code {
   padding: 2px 4px;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 9pt;
   color: #d14;
@@ -5500,7 +5503,7 @@ pre code {
   float: left;
   padding: 5px 10px;
   color: #1e1e1e;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;
@@ -5568,7 +5571,7 @@ pre code {
   background-color: rgba(217, 217, 217, 0.16);
   padding-left: 36px;
   padding-top: 5px;
-  font-family: 'Segoe UI', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI','微软雅黑', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.01em;

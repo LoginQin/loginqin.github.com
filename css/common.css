@@ -3,3 +3,13 @@
     width:1000px;
     padding:20px 100px;
 }
+.footer{
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    width: 100%;
+}
+.post-date{
+    color:#ccc;
+    font-style:italic;
+}

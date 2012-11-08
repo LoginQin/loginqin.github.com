@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post-md
 title: Windows下安装jekyll本地测试环境
 ---
-##{{page.title}}
   今天尝试着在本地搭建jekyll, 网上有不少文章, 但是在win7下还是遇到了不少问题, 这里补充记录一下关于jekyll本地GBK编码错误问题, 解决:  
 1.windows环境变量加入
     
@@ -60,4 +59,3 @@ title: Windows下安装jekyll本地测试环境
 
 
 
-*{{page.date | date_to_string}}*

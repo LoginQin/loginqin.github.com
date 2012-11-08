@@ -9,7 +9,10 @@
   </head>
   <body>
    <div class="content">
-    　{{ content }}
+     <h2>{{page.title}}</h2>
+         <div class="post-date">{{page.date | date_to_long_string}}</div>
+         {{page.content | markdownify}}
+        
    </div>
    {% include footer.html %}
   </body>
